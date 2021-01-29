@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first mission</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+  <div id="app">
+    {{msg}}
+    <span>
+      {{msg}}
+      <h1>{{user.name1}}</h1>
+      <br>
+      <h1>{{list[0]}}</h1>
+    </span>
+  </div>
+  <script>
+    const app = new Vue({
+      el:"#app",//定义实例作用范围
+      data:{
+        msg:"happiness",
+        user:{name1:"first",name2:"second"},
+        list:["sweet","snack","cupcake"]
+      },
+    });
+  </script>
+</body>
+</html>

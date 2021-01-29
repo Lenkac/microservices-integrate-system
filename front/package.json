@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "file-saver": "^2.0.5",
+    "relation-graph": "^1.1.0",
+    "v": "^0.3.0",
+    "vue-axios": "^3.2.2"
+  }
+}
