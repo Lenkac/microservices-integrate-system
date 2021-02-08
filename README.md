@@ -18,7 +18,7 @@ A system  used to display the process of deploying applications
     echo $APISERVER
 2. 利用admin.yaml创建权限：
     kubectl apply -f admin.yaml
-3. 获取token
+3. 获取token:
     Token=$(kubectl describe secret $(kubectl get secret -n kube-system | grep ^admin-user | awk '{print $1}') -n kube-system | grep -E '^token'| awk '{print $2}')
     echo $Token
 4. 复制token至server文件夹中的token.txt
