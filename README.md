@@ -1,8 +1,8 @@
 # microservices-integrate-system
-一个用于部署微服务架构软件应用，并实时显示部署过程以进行故障诊断的微服务集成系统平台
+一个用于部署微服务架构软件应用，并实时显示部署过程以进行故障诊断的微服务集成系统平台</br>
 ![](https://img.shields.io/badge/version-1.2-yellowgreen)
 ##技术架构
-本系统由基于Vue进行开发的前端应用与基于flask开发的轻量级布局构成＜/br＞
+本系统由基于Vue进行开发的前端应用与基于flask开发的轻量级布局构成</br>
 ![](https://github.com/Lenkac/microservices-integrate-system/blob/main/process.jpg)
 
 ##技术特色
@@ -12,16 +12,16 @@
 
 ##部署方式
 ##Vue前端
-1.拉取该项目至本地＜/br＞
-2.打开前端对应文件夹＜/br＞
+1.拉取该项目至本地</br>
+2.打开前端对应文件夹</br>
 ```
 cd front
 ```
-3.安装依赖＜/br＞
+3.安装依赖</br>
 ```
 npm install
 ```
-4.运行前端＜/br＞
+4.运行前端</br>
 ```
 npm run server
 ```
