@@ -26,7 +26,7 @@ from kubernetes import client, config
 
 class KubernetesTools(object):
     def __init__(self):
-        self.k8s_url = 'https://192.168.154.10:6443'
+        self.k8s_url = 'https://10.61.4.71:6443'
 
     def get_token(self):
         with open('token.txt', 'r') as file:
